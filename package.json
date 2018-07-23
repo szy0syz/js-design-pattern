@@ -1,0 +1,24 @@
+{
+  "name": "js-design-pattern",
+  "version": "1.0.0",
+  "description": "Javascript 设计模式系统讲解与应用 （练习代码）",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --config ./webpack.dev.config.js --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/szy0syz/js-design-pattern.git"
+  },
+  "author": "jerry shi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/szy0syz/js-design-pattern/issues"
+  },
+  "homepage": "https://github.com/szy0syz/js-design-pattern#readme",
+  "devDependencies": {
+    "webpack": "^4.16.2",
+    "webpack-cli": "^3.1.0"
+  }
+}
