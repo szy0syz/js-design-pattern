@@ -1,5 +1,7 @@
 # js-design-pattern
 
+  面试敲门砖、进阶垫脚石、设计有模式、代码更合理
+
 > Javascript 设计模式系统讲解与应用 （练习代码）
 
 ## 第2章 面向对象
@@ -153,7 +155,7 @@ module: {
 ```js
 function loadImg(src) {
   var promise = new Promise(function(resolve, reject) {
-    var img = document.createElement('img)
+    var img = document.createElement('img')
     img.onload = function () {
       resolve(img)
     }
